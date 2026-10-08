@@ -1,0 +1,21 @@
+name: model-design
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pytorch
+  - torchvision
+  # 按本机驱动选择 CUDA 版本（可选 11.8 / 12.1 / 12.4 / 12.6）
+  - pytorch-cuda=12.4
+  - numpy
+  - pyyaml
+  - tqdm
+  - colorama
+  - python-dotenv
+  - pytest
+  - pip
+  - pip:
+    - openai>=1.0.0

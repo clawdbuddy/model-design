@@ -1,0 +1,19 @@
+name: model-design
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pytorch
+  - torchvision
+  - cpuonly
+  - numpy
+  - pyyaml
+  - tqdm
+  - colorama
+  - python-dotenv
+  - pytest
+  - pip
+  - pip:
+    - openai>=1.0.0

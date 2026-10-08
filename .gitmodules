@@ -1,0 +1,18 @@
+[submodule "nas-without-training"]
+	path = nas-without-training
+	url = https://github.com/BayesWatch/nas-without-training.git
+[submodule "NN-GPT"]
+	path = NN-GPT
+	url = https://github.com/ABrain-One/NN-GPT.git
+[submodule "LM-Searcher"]
+	path = LM-Searcher
+	url = https://github.com/Ashone3/LM-Searcher.git
+[submodule "third_party/NN-GPT"]
+	path = third_party/NN-GPT
+	url = https://github.com/ABrain-One/NN-GPT.git
+[submodule "third_party/LM-Searcher"]
+	path = third_party/LM-Searcher
+	url = https://github.com/Ashone3/LM-Searcher.git
+[submodule "third_party/nas-without-training"]
+	path = third_party/nas-without-training
+	url = https://github.com/BayesWatch/nas-without-training.git

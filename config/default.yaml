@@ -1,0 +1,19 @@
+constraints:
+  max_params: 500000
+  input_shape: [3, 32, 32]
+  input_channels: 3
+  num_classes: 10
+  device: "cpu"
+
+scoring:
+  method: "naswot"
+  batch_size: 32
+
+proposal:
+  style: "nngpt"
+  temperature: 0.7
+
+search:
+  max_rounds: 5
+  candidates_per_round: 3
+  early_stop_patience: 3
